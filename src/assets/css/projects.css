@@ -1,0 +1,206 @@
+.container .projects {
+    width: 1200px;
+  }
+.container .projects header {
+    display: flex;
+    width: 100%;
+    min-height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid var(--text); */
+  }
+  .container .projects .back {
+    color: var(--text);
+    font-size: 6em;
+    cursor: pointer;
+    margin-right: auto;
+  }
+  .container .projects header h1 {
+    color: var(--text);
+    font-size: 12em;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+  }
+  .container .projects header p {
+    color: var(--text);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 2em;
+    width: 700px;
+    text-align: center;
+    margin: 0.5em auto;
+  }
+
+/* MAIN */
+.container .projects main {
+    width: 100%;
+    margin: 1em auto;
+    margin-top: 8em;
+  }
+  .container .projects main h1 {
+    color: var(--text);
+    font-size: 8em;
+    font-family: "Orbitron", sans-serif;
+    margin-top: 0.5em;
+  }
+  .container .projects main .rows {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+    margin-top: 8em;
+  }
+  .container .projects main .box {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+    position: relative;
+  }
+  .container .projects main .box .txt {
+    width: 45%;
+    min-height: 400px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 1s ease-in-out;
+  }
+  .container .projects main .box.in-view .txt{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .container .projects main .box img {
+    object-fit: cover;
+    width: 50%;
+    height: 500px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 1s ease-in-out;
+  }
+  .container .projects main .box.in-view img{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .container .projects main .box.odd .txt{
+    transition-delay: 0.5s;
+  }
+  .container .projects main .box img{
+    transition-delay: 0.5s;
+  }
+  .container .projects main .box.odd img{
+    transition-delay: 0s;
+  }
+  
+  .container .projects main .box .txt h2 {
+    color: var(--text);
+    font-size: 3em;
+    font-family: "Orbitron", sans-serif;
+  }
+  .container .projects main .box .txt p {
+    color: var(--text);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1.8em;
+    margin: 1em 0em;
+    line-height: 25px;
+  }
+  .container .projects main .box .txt .link {
+    color: var(--text);
+    font-size: 1.8em;
+    display: block;
+    font-family: "Orbitron", sans-serif;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    transform: translateX(0%);
+  }
+  .container .projects main .box.odd .txt .link{
+    color: var(--text);
+    display: block;
+    font-family: "Orbitron", sans-serif;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+  .container .projects main .box .txt .link a {
+   color: var(--text);
+   /* font-weight: 500; */
+   text-decoration:underline;
+  }
+  .container .projects main .box .txt .link h3 {
+    display: block;
+    text-align: left;
+  }
+  
+
+
+
+
+
+
+
+
+/* ••••••••••••MOBILE RESPONSIVE•••••••••••••••••••• */
+@media (max-width:768px) {
+  .container .projects {
+    width: 100%;
+  }
+.container .projects header {
+    display: flex;
+    width: 100%;
+    min-height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid var(--text); */
+  }
+  .container .projects .back {
+    color: var(--text);
+    font-size: 6em;
+    cursor: pointer;
+    margin-right: auto;
+  }
+  .container .projects header h1 {
+    font-size: 4em;
+  }
+  .container .projects header p {
+    font-size: 1.4em;
+    width: 100%;
+    margin: 2em auto;
+  }
+
+/* MAIN */
+.container .projects main {
+    margin-top: 4em;
+  }
+  .container .projects main h1 {
+    font-size: 4em;
+  }
+  .container .projects main .rows {
+    gap: 8em;
+    margin-top: 4em;
+  }
+  .container .projects main .box {
+    gap: 2em;
+  }
+  .container .projects main .box .txt {
+    width: 100%;
+    min-height: 300px;
+  }
+  .container .projects main .box img {
+    width: 100%;
+  }
+  .container .projects main .box .txt h2 {
+    color: var(--text);
+    font-size: 2em;
+    font-family: "Orbitron", sans-serif;
+  }
+  .container .projects main .box .txt p {
+    font-size: 1.4em;
+  }
+  .container .projects main .box .txt .link {
+    font-size: 1.4em;
+  }
+  
+}

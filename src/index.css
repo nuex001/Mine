@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Orbitron:wght@400..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+}
+
+:root {
+  --bg: #f5f5f5;
+  --text: #000;
+}
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* 
+  font-family: "Orbitron", sans-serif;
+  font-family: "Poetsen One", sans-serif;
+  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  padding: 4em 2em;
+  background: var(--bg);
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container .home {
+  width: 1200px;
+}
+
+.container .home header {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  /* border: 2px solid var(--text); */
+}
+.container .home header h1 {
+  color: var(--text);
+  font-size: 6em;
+  font-family: "Orbitron", sans-serif;
+}
+.container .home header p {
+  color: var(--text);
+  font-family: "Radio Canada Big", sans-serif;
+  font-size: 2em;
+  width: 600px;
+  margin: 0.5em 0em;
+}
+.container .home header .icon {
+  color: var(--text);
+  font-size: 6em;
+}
+.container .home header .plus {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+.container .home header .icon {
+  color: var(--text);
+  font-size: 6em;
+}
+
+.container .home header .bulb {
+  color: var(--text);
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  font-size: 4em;
+  cursor: pointer;
+}
+
+/* PORTFOLIO */
+.container .home section {
+  width: 100%;
+  margin: 1em auto;
+  margin-top: 8em;
+}
+.container .home .portfolio h1 {
+  color: var(--text);
+  font-size: 8em;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 0.5em;
+}
+.container .home .portfolio .rows {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8em;
+  margin-top: 8em;
+}
+.container .home .portfolio .box {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+  position: relative;
+}
+.container .home .portfolio .box .txt {
+  width: 45%;
+}
+.container .home .portfolio .box img {
+  object-fit: cover;
+  width: 50%;
+  height: 500px;
+}
+
+.container .home .portfolio .box .txt h2 {
+  color: var(--text);
+  font-size: 3em;
+  font-family: "Orbitron", sans-serif;
+}
+.container .home .portfolio .box .txt p {
+  color: var(--text);
+  font-family: "Radio Canada Big", sans-serif;
+  font-size: 1.8em;
+  margin: 1em 0em;
+  line-height: 25px;
+}
+.container .home .portfolio .box .txt .link {
+  color: var(--text);
+  font-size: 1.8em;
+  display: block;
+  font-family: "Orbitron", sans-serif;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-130%);
+}
+.container .home .portfolio .box .txt .link a {
+  color: var(--text);
+  /* font-weight: 500; */
+  text-decoration: underline;
+}
+.container .home .portfolio .box .txt .link h3 {
+  display: block;
+  text-align: left;
+}
+/* FOOTER */
+.container footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4em;
+  margin-bottom: 5em;
+  gap: 4em;
+}
+.container footer h1 {
+  color: var(--text);
+  font-size: 2em;
+  font-family: "Orbitron", sans-serif;
+}
+.container footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+.container footer ul li {
+  list-style: none;
+  color: var(--text);
+}
+.container footer ul li a {
+  text-decoration: underline;
+  color: var(--text);
+  font-size: 2em;
+}
+
+/* ••••••••••••MOBILE RESPONSIVE•••••••••••••••••••• */
+@media (max-width: 768px) {
+  .container .home {
+    width: 100%;
+  }
+  .container .home header {
+    flex-direction: column;
+  }
+  .container .home header h1 {
+    font-size: 4em;
+  }
+  .container .home header p {
+    font-size: 1.4em;
+    width: 100%;
+  }
+  .container .home header .icon {
+    font-size: 4em;
+  }
+
+  /* PORTFOLIO */
+  .container .home section {
+    width: 100%;
+    margin: 1em auto;
+    margin-top: 8em;
+  }
+  .container .home .portfolio h1 {
+    font-size: 4em;
+  }
+  .container .home .portfolio .rows {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+    margin-top: 4em;
+  }
+  .container .home .portfolio .box {
+    gap: 2em;
+  }
+  .container .home .portfolio .box .txt {
+    width: 100%;
+  }
+  .container .home .portfolio .box img {
+    width: 100%;
+  }
+
+  .container .home .portfolio .box .txt h2 {
+    font-size: 2em;
+  }
+  .container .home .portfolio .box .txt p {
+    font-size: 1.4em;
+  }
+  .container .home .portfolio .box .txt .link {
+    font-size: 1.2em;
+    bottom: -7%;
+    left: 0%;
+    transform: translateX(0%);
+  }
+}

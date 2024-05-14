@@ -1,0 +1,195 @@
+.container .project {
+  width: 1200px;
+}
+.container .project header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid var(--text); */
+}
+.container .project header .txt {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.container .project header .txt h1 {
+  color: var(--text);
+  font-size: 4em;
+  text-align: left;
+  font-family: "Orbitron", sans-serif;
+}
+.container .project header .txt h2 {
+  color: var(--text);
+  font-size: 1.4em;
+  text-align: left;
+  font-family: "Orbitron", sans-serif;
+  margin: 0.5em 0em;
+}
+
+.container .project header .txt .back {
+  color: var(--text);
+  font-size: 6em;
+  cursor: pointer;
+  margin-left: auto;
+}
+.container .project header p {
+  color: var(--text);
+  font-size: 2em;
+  font-family: "Radio Canada Big", sans-serif;
+  word-break: keep-all;
+  text-align: left;
+  padding-right: 4em;
+  margin-top: 6em;
+}
+.container .project header h2 {
+  color: var(--text);
+  font-size: 4em;
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+  width: 100%;
+  margin-top: 1em;
+}
+.container .project header ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 7em;
+  margin-top: 1em;
+  padding: 0em 2em;
+}
+.container .project header ul li {
+  color: var(--text);
+  font-size: 2em;
+  font-family: "Radio Canada Big", sans-serif;
+  word-break: keep-all;
+  text-align: left;
+}
+
+/* MAIN */
+.container .project main {
+  width: 100%;
+  margin: 1em auto;
+  margin-top: 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.container .project main img {
+  object-fit: cover;
+  width: 55%;
+  min-height: 700px;
+  position: sticky;
+  top: 20%;
+}
+.container .project main .text {
+  width: 40%;
+}
+.container .project main .text h1 {
+  color: var(--text);
+  font-size: 2em;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 2em;
+}
+.container .project main .text p {
+  color: var(--text);
+  font-size: 1.4em;
+  font-family: "Radio Canada Big", sans-serif;
+  margin-top: 0.5em;
+  line-height: 25px;
+}
+.container .project main .text p a {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+
+
+
+
+
+/* ••••••••••••MOBILE RESPONSIVE•••••••••••••••••••• */
+@media (max-width:768px) {
+  .container .project {
+    width: 100%;
+  }
+  .container .project header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid var(--text); */
+  }
+  .container .project header .txt {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  .container .project header .txt h1 {
+    color: var(--text);
+    font-size: 2em;
+    text-align: left;
+    font-family: "Orbitron", sans-serif;
+  }
+  .container .project header .txt h2 {
+    color: var(--text);
+    font-size: 1.4em;
+    text-align: left;
+    font-family: "Orbitron", sans-serif;
+    margin: 0.5em 0em;
+  }
+  
+  .container .project header .txt .back {
+    color: var(--text);
+    font-size: 6em;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .container .project header p {
+    font-size: 1.4em;
+    padding-right: 0em;
+  }
+  .container .project header h2 {
+    font-size: 2em;
+  }
+  .container .project header ul {
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+  .container .project header ul li {
+    color: var(--text);
+    font-size: 1.4em;
+  }
+  
+  /* MAIN */
+  .container .project main {
+    width: 100%;
+    margin: 1em auto;
+    margin-top: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .container .project main img {
+    object-fit: cover;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+  }
+  .container .project main .text {
+    width: 100%;
+  }
+  .container .project main .text h1 {
+    font-size: 1.8em;
+  }
+  
+  
+
+}
