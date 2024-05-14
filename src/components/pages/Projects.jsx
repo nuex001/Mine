@@ -89,7 +89,7 @@ function Projects() {
             if (item.id % 2 > 0) {
               return (
                 <div>
-                  <Link to={`/projects/${item.id}`} className="box odd" key={item.id} ref={el => boxRefs.current[idx] = el}>
+                  <Link to={`/project/${item.id}`} className="box odd" key={item.id} ref={el => boxRefs.current[idx] = el}>
                     <img src={item.coverImg} alt="" />
                     <div className="txt">
                       <h2>{item.topic}:</h2>

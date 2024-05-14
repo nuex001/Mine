@@ -207,6 +207,10 @@ html {
     font-size: 4em;
   }
 
+  .container .home header .bulb {
+    font-size: 3em;
+  }
+  
   /* PORTFOLIO */
   .container .home section {
     width: 100%;

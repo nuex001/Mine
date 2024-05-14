@@ -157,7 +157,7 @@
   }
   .container .projects .back {
     color: var(--text);
-    font-size: 6em;
+    font-size: 3em;
     cursor: pointer;
     margin-right: auto;
   }

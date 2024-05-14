@@ -147,7 +147,7 @@
   
   .container .project header .txt .back {
     color: var(--text);
-    font-size: 6em;
+    font-size: 4em;
     cursor: pointer;
     margin-left: auto;
   }
