@@ -8,6 +8,7 @@ import Daoprj from './components/pages/Daoprj';
 import EtherscanPrj from './components/pages/EtherscanPrj';
 import Invprj from './components/pages/Invprj';
 import Footer from './components/layouts/Footer';
+import Ratonsol from './components/pages/100Projects/Ratonsol';
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
         <Route exact path="/Etherscanprj" element={<EtherscanPrj/>}/>
         <Route exact path="/Invprj" element={<Invprj/>}/>
         <Route exact path="/projects" element={<Projects/>}/>
+        {/* 100 daily projects */}
+        <Route exact path="/ratonsol" element={<Ratonsol/>}/>
       </Routes>
       <Footer/>
     </div>
