@@ -27,7 +27,7 @@ function Ratonsol() {
         </div>
         <p>
         Today, I will be walking you through RATONSOL, an imaginary memetoken I've created for you all. 
-        We will be using it as a template for developing meme tokens, both for frontend and smart contract development. Feel free to copy the contract and customize it to your liking. Since it's my first attempt 😂, I'd appreciate all your feedback. Please send your reviews to me via my social platform.
+        We will be using it as a template for developing meme tokens, both for frontend and smart contract development. Feel free to copy the contract and customize it to your liking. Since it's my first attempt, I'd appreciate all your feedback. Please send your reviews to me via my social platform.
         </p>
         <h2>🛠️ Technology</h2>
         <ul>
@@ -39,7 +39,7 @@ function Ratonsol() {
         <img src={bg} alt="" />
         <div className="text">
           <h1>🛠️ Project Highlights:</h1>
-          <h1>🔧 Frontend developement:</h1>
+          <h1>🔧 Frontend development:</h1>
           <h4>let's go through the RatOnSol WebPage, from the first stage to the last, as simplified as possible.</h4>
           <ul>
             <h2>Navbar:</h2>
@@ -76,7 +76,7 @@ function Ratonsol() {
             </li>
           </ul>
           {/* erer */}
-          <h1>🔧 Smart contract developement:</h1>
+          <h1>🔧 Smart contract development:</h1>
           <h4>Let's go through the RatOnSol smart contract, from the first stage to the last, as simplified as possible.</h4>
           <ul>
             <h3>SPDX-License-Identifier & Solidity Version: </h3>

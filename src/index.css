@@ -22,7 +22,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+body{
+  background: var(--bg);
+}
 .container {
   width: 100%;
   min-height: 100vh;
