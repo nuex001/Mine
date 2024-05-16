@@ -99,7 +99,7 @@ function Invprj() {
             Explore the InvigarateDAO platform and experience firsthand the
             results of my dedicated efforts in frontend development and
             blockchain integration.{" "}
-            <a href="#" target="_blank">
+            <a href="https://invigoratedao.com" target="_blank">
               Live link
             </a>
             . Join the decentralized revolution and unleash the power of

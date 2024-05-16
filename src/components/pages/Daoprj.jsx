@@ -28,7 +28,7 @@ function Daoprj() {
           <h1>🚀 Project Impact:</h1>
           <p>My work on this project has contributed to advancing the capabilities of decentralized governance systems. By creating a functional and user-centric DAO platform, I aim to empower communities to collaboratively make decisions in a transparent and trustless manner, driving the adoption of decentralized technologies.</p>
           <h1>🌐 Project Link:</h1>
-          <p>Curious to learn more? Explore the live project and delve into its intricacies by visiting <a href="#" target="_blank">Live link</a>. Witness firsthand how decentralized governance is reshaping the future of organizational struct</p>
+          <p>Curious to learn more? Explore the live project and delve into its intricacies by visiting <a href="https://daofe-gamma.vercel.app" target="_blank">Live link</a>. Witness firsthand how decentralized governance is reshaping the future of organizational struct</p>
         </div>
       </main>
     </div>

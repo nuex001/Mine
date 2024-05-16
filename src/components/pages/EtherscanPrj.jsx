@@ -83,12 +83,12 @@ function EtherscanPrj() {
           <p>
             Curious to learn more? Explore the live project and delve into its
             intricacies by visiting{" "}
-            <a href="#" target="_blank">
+            <a href="https://etherscantest.netlify.app" target="_blank">
               Live link
             </a>
             . Witness firsthand how decentralized governance is reshaping the
             future of organizational struct or check the{" "}
-            <a href="#" target="_blank">
+            <a href="https://github.com/nuex001/etherscan" target="_blank">
               source code
             </a>
           </p>
