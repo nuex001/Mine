@@ -61,7 +61,7 @@ function Projects() {
                       <h2>{item.topic}:</h2>
                       <p>{item.text}</p>
                       <div className="link">
-                        <a href="#" target="_blank">
+                        <a href={`/${item.external_link}`} target="_blank">
                           {item.subTopic}
                         </a>
                         <h3>{item.date}</h3>
