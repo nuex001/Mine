@@ -167,9 +167,10 @@ html {
   margin-bottom: 5em;
   gap: 4em;
 }
-.container footer h1 {
+.container footer a {
   color: var(--text);
   font-size: 2em;
+font-weight: 600;
   font-family: "Orbitron", sans-serif;
 }
 .container footer ul {

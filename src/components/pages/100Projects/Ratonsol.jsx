@@ -26,11 +26,8 @@ function Ratonsol() {
           <FaBackspace className="back" onClick={getBack} />
         </div>
         <p>
-          RATONSOL envisions a future where meme tokens play a significant role
-          in shaping the decentralized finance landscape. Through innovation,
-          community-driven development, and cross-chain compatibility, the
-          project strives to establish itself as a leading platform for meme
-          token creation and interaction.
+        Today, I will be walking you through RATONSOL, an imaginary memetoken I've created for you all. 
+        We will be using it as a template for developing meme tokens, both for frontend and smart contract development. Feel free to copy the contract and customize it to your liking. Since it's my first attempt 😂, I'd appreciate all your feedback. Please send your reviews to me via my social platform.
         </p>
         <h2>🛠️ Technology</h2>
         <ul>
@@ -43,12 +40,7 @@ function Ratonsol() {
         <div className="text">
           <h1>🛠️ Project Highlights:</h1>
           <h1>🔧 Frontend developement:</h1>
-          {/* <p>
-            Leveraging my expertise in Solidity programming, I designed and
-            implemented a robust DAO smart contract on the Ethereum blockchain.
-            This contract autonomously governs decision-making processes within
-            the organization, fostering transparency and decentralization.
-          </p> */}
+          <h4>let's go through the RatOnSol WebPage, from the first stage to the last, as simplified as possible.</h4>
           <ul>
             <h2>Navbar:</h2>
             <li>Logo: Memetoken logo</li>
@@ -85,6 +77,7 @@ function Ratonsol() {
           </ul>
           {/* erer */}
           <h1>🔧 Smart contract developement:</h1>
+          <h4>Let's go through the RatOnSol smart contract, from the first stage to the last, as simplified as possible.</h4>
           <ul>
             <h3>SPDX-License-Identifier & Solidity Version: </h3>
             <img src={bg1} className="sub" alt="" />

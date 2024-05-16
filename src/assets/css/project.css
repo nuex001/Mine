@@ -105,8 +105,18 @@
 .container .project main .text p a {
   color: var(--text);
   text-decoration: underline;
+  margin-right: 0.1em;
 }
-
+.container .project main h4 {
+  color: var(--text);
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: "Orbitron", sans-serif;
+  word-break: keep-all;
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
 .container .project main ul {
   width: 100%;
   display: flex;
