@@ -6,6 +6,7 @@ import bg1 from "../../assets/images/bg3.jpg";
 import bg3 from "../../assets/images/bg1.jpg";
 import bg4 from "../../assets/images/bg4.jpg";
 import ratonsol from "../../assets/images/ratonsol.jpeg";
+import faucet from "../../assets/images/faucet.png";
 import { Link } from "react-router-dom";
 function Projects() {
   const [portfolios, setPortfolios] = useState([
@@ -17,6 +18,16 @@ function Projects() {
       subTopic: "001 PROJECT",
       external_link: "https://ratonsol.netlify.app/",
       link:"ratonsol",
+      date: "2024",
+    },
+    {
+      id: 2,
+      topic: "🚀 RATONSOL Faucet",
+      coverImg: faucet,
+      text: "This project involves the creation and distribution of the Ratonsol token. The goal is to build a robust infrastructure that supports community engagement through a seamless token distribution system.",
+      subTopic: "002 PROJECT",
+      external_link: "https://ratonsolfauctnet.netlify.app/",
+      link:"faucet",
       date: "2024",
     },
   ]);
@@ -73,19 +84,19 @@ function Projects() {
             } else {
               return (
                 <div>
-                  <a href="/projects" className="box" key={item.id} ref={el => boxRefs.current[idx] = el}>
+                 <Link to={`/${item.link}`} className="box" key={item.id} ref={el => boxRefs.current[idx] = el}>
                     <div className="txt">
                       <h2>{item.topic}:</h2>
                       <p>{item.text}</p>
                       <div className="link">
-                        <a href="#" target="_blank">
+                        <a href={`/${item.external_link}`} target="_blank">
                           {item.subTopic}
                         </a>
                         <h3>{item.date}</h3>
                       </div>
                     </div>
                     <img src={item.coverImg} alt="" />
-                  </a>
+                  </Link>
                 </div>
               );
             }

@@ -9,6 +9,7 @@ import EtherscanPrj from './components/pages/EtherscanPrj';
 import Invprj from './components/pages/Invprj';
 import Footer from './components/layouts/Footer';
 import Ratonsol from './components/pages/100Projects/Ratonsol';
+import Fauctnet from './components/pages/100Projects/Fauctnet';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/projects" element={<Projects/>}/>
         {/* 100 daily projects */}
         <Route exact path="/ratonsol" element={<Ratonsol/>}/>
+        <Route exact path="/faucet" element={<Fauctnet/>}/>
       </Routes>
       <Footer/>
     </div>
