@@ -5,6 +5,7 @@ import bg from "../../assets/images/bg.jpg";
 import bg1 from "../../assets/images/bg3.jpg";
 import bg3 from "../../assets/images/bg1.jpg";
 import bg4 from "../../assets/images/bg4.jpg";
+import bot from "../../assets/images/bots.png";
 import ratonsol from "../../assets/images/ratonsol.jpeg";
 import faucet from "../../assets/images/faucet.png";
 import { Link } from "react-router-dom";
@@ -28,6 +29,16 @@ function Projects() {
       subTopic: "002 PROJECT",
       external_link: "https://ratonsolfauctnet.netlify.app/",
       link:"faucet",
+      date: "2024",
+    },
+    {
+      id: 2,
+      topic: "🚀 MEMESLAND TGB0T",
+      coverImg: bot,
+      text: "This project showcases a Telegram bot developed using Node.js, leveraging the node-telegram-bot-api and axios libraries.",
+      subTopic: "003 PROJECT",
+      external_link: "https://ratonsolfauctnet.netlify.app/",
+      link:"tgbot",
       date: "2024",
     },
   ]);

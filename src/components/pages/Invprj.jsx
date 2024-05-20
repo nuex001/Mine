@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/css/project.css";
 import Header from "../layouts/project/Header";
-import bg3 from "../../assets/images/bg6.jpg";
+import invi from "../../assets/images/invi.jpg";
 import { useParams } from "react-router-dom";
 import { FaBackspace } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
@@ -38,7 +38,7 @@ function Invprj() {
         </ul>
       </header>
       <main>
-        <img src={bg3} alt="" />
+        <img src={invi} alt="" />
         <div className="text">
           <h1>🛠️ Empowering Growth in the Crypto Space:</h1>
           <h1>👨‍💻 Developer Profile:</h1>

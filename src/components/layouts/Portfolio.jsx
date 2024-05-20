@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import bg from "../../assets/images/100days.jpg";
 import bg1 from "../../assets/images/bg3.jpg";
-import bg3 from "../../assets/images/bg1.jpg";
-import bg4 from "../../assets/images/bg4.jpg";
+import etherscan from "../../assets/images/etherscan.jpg";
+import memes from "../../assets/images/memes.jpg";
+import invi from "../../assets/images/invi.jpg";
 import { Link } from "react-router-dom";
 function Portfolio() {
     const [portfolios,setPortfolios] = useState([
@@ -18,18 +19,28 @@ function Portfolio() {
         },
         {
             id:2,
-            topic:"👨🏾‍⚖️DAO",
-            coverImg:bg3,
-            text:"Leveraging my expertise in Solidity programming, I designed and implemented a robust DAO smart contract on the Ethereum blockchain. This contract autonomously governs decision-making processes within the organization, fostering transparency and decentralization.",
-            subTopic:"DAO PROJECT",
-            link:"Daoprj",
-            external_link:"https://invigoratedao.netlify.app/",
-            date:"2023"
+            topic:"👨🏾‍⚖️ MEMESLAND",
+            coverImg:memes,
+            text:"MEMESLAND is a platform dedicated to memes. It features a collection of popular and trending memes, offering users a place to browse and enjoy various humorous content. The site is organized for easy navigation and regularly updates its meme selection to keep up with current trends.",
+            subTopic:"MEMESLAND PROJECT",
+            link:"memes",
+            external_link:"https://topmememe.netlify.app",
+            date:"2024"
         },
+        // {
+        //     id:2,
+        //     topic:"👨🏾‍⚖️DAO",
+        //     coverImg:memes,
+        //     text:"Leveraging my expertise in Solidity programming, I designed and implemented a robust DAO smart contract on the Ethereum blockchain. This contract autonomously governs decision-making processes within the organization, fostering transparency and decentralization.",
+        //     subTopic:"DAO PROJECT",
+        //     link:"Daoprj",
+        //     external_link:"https://invigoratedao.netlify.app/",
+        //     date:"2023"
+        // },
         {
             id:3,
             topic:"🚀 InvigorateDAO",
-            coverImg:bg4,
+            coverImg:invi,
             text:"InvigorateDAO helps projects to connect with the best investors, software developers, strategic partners & influncers to grow your project.",
             subTopic:"InvigorateDAO PROJECT",
             link:"Invprj",
@@ -39,7 +50,7 @@ function Portfolio() {
         {
             id:4,
             topic:"👀 Etherscan Clone",
-            coverImg:bg1,
+            coverImg:etherscan,
             text:"Leveraging React.js and ethers.js, I spearheaded the development of a comprehensive platform akin to Etherscan. This platform provides users with invaluable insights into the Ethereum blockchain, allowing them to explore transactions, smart contracts, addresses, and more.",
             subTopic:"Etherscan Clone PROJECT",
             link:"Etherscanprj",

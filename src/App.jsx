@@ -10,6 +10,8 @@ import Invprj from './components/pages/Invprj';
 import Footer from './components/layouts/Footer';
 import Ratonsol from './components/pages/100Projects/Ratonsol';
 import Fauctnet from './components/pages/100Projects/Fauctnet';
+import Memes from './components/pages/Memes';
+import TgBot from './components/pages/100Projects/TgBot';
 
 function App() {
 
@@ -21,12 +23,14 @@ function App() {
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/project/:id" element={<Project/>}/>
         <Route exact path="/Daoprj" element={<Daoprj/>}/>
+        <Route exact path="/memes" element={<Memes/>}/>
         <Route exact path="/Etherscanprj" element={<EtherscanPrj/>}/>
         <Route exact path="/Invprj" element={<Invprj/>}/>
         <Route exact path="/projects" element={<Projects/>}/>
         {/* 100 daily projects */}
         <Route exact path="/ratonsol" element={<Ratonsol/>}/>
         <Route exact path="/faucet" element={<Fauctnet/>}/>
+        <Route exact path="/tgbot" element={<TgBot/>}/>
       </Routes>
       <Footer/>
     </div>

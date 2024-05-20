@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/css/project.css";
 import Header from "../layouts/project/Header";
-import bg3 from "../../assets/images/bg3.jpg";
+import etherscan from "../../assets/images/etherscan.jpg";
 import { useParams } from "react-router-dom";
 import { FaBackspace } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
@@ -36,7 +36,7 @@ function EtherscanPrj() {
         </ul>
       </header>
       <main>
-        <img src={bg3} alt="" />
+        <img src={etherscan} alt="" />
         <div className="text">
           <h1>🛠️ Project Highlights:</h1>
           <h1>🔧 Etherscan-Like Platform Development:</h1>
