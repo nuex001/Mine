@@ -6,6 +6,7 @@ import tg2 from "../../../assets/images/bots/tg2.png";
 import tg from "../../../assets/images/bots/tg3.png";
 import tg3 from "../../../assets/images/bots/tg.png";
 import tg1 from "../../../assets/images/bots/tg1.png";
+import tg4 from "../../../assets/images/bots/tg4.png";
 import { useNavigate } from "react-router-dom";
 import { FaBackspace } from "react-icons/fa";
 
@@ -92,6 +93,9 @@ function TgBot() {
               of 4096 characters by batching the responses.
             </li>
             <img src={tg3} className="sub" alt="" />
+            <h2>Setting Up Server</h2>
+            <li>We also set up a simple HTTP server that listens on the specified port, confirming that the bot is running. Most hosting platforms would fail without setting up one.</li>
+            <img src={tg4} className="sub" alt="" />
             <h2>Running the Bot</h2>
             <li>
               After setting up the environment and starting the bot, you can
