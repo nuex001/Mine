@@ -8,6 +8,7 @@ import bg4 from "../../assets/images/bg4.jpg";
 import bot from "../../assets/images/bots.png";
 import ratonsol from "../../assets/images/ratonsol.jpeg";
 import faucet from "../../assets/images/faucet.png";
+import quiz from "../../assets/images/quiz1.png";
 import { Link } from "react-router-dom";
 function Projects() {
   const [portfolios, setPortfolios] = useState([
@@ -39,6 +40,16 @@ function Projects() {
       subTopic: "003 PROJECT",
       external_link: "https://ratonsolfauctnet.netlify.app/",
       link:"tgbot",
+      date: "2024",
+    },
+    {
+      id: 3,
+      topic: "🚀 QUIZ APP",
+      coverImg: quiz,
+      text: "🚀 Check out our new Crypto Quiz App! 🌐 Get daily crypto-related questions, earn points for correct answers, and boost your knowledge! Built with ReactJs, Node.js, and OpenAI. Stay engaged and win big! ",
+      subTopic: "004 - 006 PROJECT",
+      external_link: "https://quizfe.netlify.app/",
+      link:"quiz",
       date: "2024",
     },
   ]);

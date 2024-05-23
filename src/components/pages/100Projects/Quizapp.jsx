@@ -1,22 +1,17 @@
 import React from "react";
 import "../../../assets/css/project.css";
 import Header from "../../layouts/project/Header";
-import bg from "../../../assets/images/bots.png";
-import tg2 from "../../../assets/images/bots/tg2.png";
-import tg from "../../../assets/images/bots/tg3.png";
-import tg3 from "../../../assets/images/bots/tg.png";
-import tg1 from "../../../assets/images/bots/tg1.png";
-import tg4 from "../../../assets/images/bots/tg4.png";
+import bg from "../../../assets/images/quiz.png";
 import { useNavigate } from "react-router-dom";
 import { FaBackspace } from "react-icons/fa";
 
-function TgBot() {
+function Quizapp() {
   const navigate = useNavigate();
 
   const getBack = () => {
     navigate(-1);
   };
- return (
+  return (
     <div className="project">
       <header>
         <div className="txt">
@@ -46,7 +41,7 @@ function TgBot() {
           <h1>🔧 Frontend development:</h1>
           <h4>Let's go through the whole process:</h4>
           <ul>
-            <h2>Yesterday: Backend Setup</h2>
+            <h2>Backend Setup</h2>
             <li>
               Server Configuration: Configured the Node.js server to handle API
               requests and run cron jobs.
@@ -55,7 +50,7 @@ function TgBot() {
               Cron Jobs: Set up cron jobs to request new quiz questions from
               OpenAI every day at midnight.
             </li>
-            <h2>Today: Frontend Integration</h2>
+            <h2>Frontend Integration</h2>
             <li>
               Objective: To display daily quiz questions to users and update
               their scores based on correct answers.
@@ -72,20 +67,22 @@ function TgBot() {
               Score Management: Implemented a system to increase user scores by
               100 points for each correct answer.
             </li>
+            <h2>How the Quiz Works:</h2>
+            <li>
+              New Questions: Get fresh questions every day to keep things
+              exciting.
+            </li>
+            <li>
+              Answering: Just pick your answer, and if it's right, you'll earn
+              points!
+            </li>
+            <li>Score Tracking: See your points grow as you keep playing!</li>
+            <h1>🎁 Wrapping Up:</h1>
+            <p>
+              The Crypto Quiz App is all about fun learning! Keep playing every
+              day to boost your crypto knowledge and score more points!
+            </p>
           </ul>
-          <h2>Quiz Mechanism:</h2>
-          <li>
-            Daily Questions: Users receive new cryptocurrency-related questions
-            every day.
-          </li>
-          <li>
-            Answer Validation: The system checks if the user's answer is correct
-            and updates their score accordingly.
-          </li>
-          <li>
-            Score Tracking: User scores are tracked and displayed, encouraging
-            daily participation.
-          </li>
           <h1>🌐 Conclusion:</h1>
           <p>
             The Crypto Quiz App is designed to educate users about
@@ -101,10 +98,16 @@ function TgBot() {
             </a>{" "}
             or check out the source code on{" "}
             <a
-              href="https://github.com/yourusername/cryptoquizapp"
+              href="https://github.com/nuex001/QuizAppFE"
               target="_blank"
             >
-              GitHub
+              Frontend Source code
+            </a>
+            <a
+              href="https://github.com/nuex001/QuizAppBE"
+              target="_blank"
+            >
+              Backend Source code
             </a>
           </p>
         </div>
@@ -113,4 +116,4 @@ function TgBot() {
   );
 }
 
-export default TgBot;
+export default Quizapp;

@@ -12,6 +12,7 @@ import Ratonsol from './components/pages/100Projects/Ratonsol';
 import Fauctnet from './components/pages/100Projects/Fauctnet';
 import Memes from './components/pages/Memes';
 import TgBot from './components/pages/100Projects/TgBot';
+import Quizapp from './components/pages/100Projects/Quizapp';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/ratonsol" element={<Ratonsol/>}/>
         <Route exact path="/faucet" element={<Fauctnet/>}/>
         <Route exact path="/tgbot" element={<TgBot/>}/>
+        <Route exact path="/quiz" element={<Quizapp/>}/>
       </Routes>
       <Footer/>
     </div>
