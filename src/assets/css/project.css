@@ -20,13 +20,13 @@
   color: var(--text);
   font-size: 4em;
   text-align: left;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
 }
 .container .project header .txt h2 {
   color: var(--text);
   font-size: 1.4em;
   text-align: left;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
   margin: 0.5em 0em;
 }
 
@@ -39,7 +39,7 @@
 .container .project header p {
   color: var(--text);
   font-size: 2em;
-  font-family: "Radio Canada Big", sans-serif;
+  font-family: "Raleway", serif;
   word-break: keep-all;
   text-align: left;
   padding-right: 4em;
@@ -48,7 +48,7 @@
 .container .project header h2 {
   color: var(--text);
   font-size: 4em;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
   text-align: left;
   width: 100%;
   margin-top: 1em;
@@ -65,7 +65,7 @@
 .container .project header ul li {
   color: var(--text);
   font-size: 2em;
-  font-family: "Radio Canada Big", sans-serif;
+  font-family: "Raleway", serif;
   word-break: keep-all;
   text-align: left;
 }
@@ -92,13 +92,13 @@
 .container .project main .text h1 {
   color: var(--text);
   font-size: 2em;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
   margin-top: 2em;
 }
 .container .project main .text p {
   color: var(--text);
   font-size: 1.4em;
-  font-family: "Radio Canada Big", sans-serif;
+  font-family: "Raleway", serif;
   margin-top: 0.5em;
   line-height: 25px;
 }
@@ -111,7 +111,7 @@
   color: var(--text);
   font-size: 1.2em;
   font-weight: 500;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
   word-break: keep-all;
   text-align: left;
   margin-top: 0.5em;
@@ -127,21 +127,21 @@
 .container .project main ul h2 {
   color: var(--text);
   font-size: 2em;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
   word-break: keep-all;
   text-align: left;
 }
 .container .project main ul h3 {
   color: var(--text);
   font-size: 1.8em;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
   word-break: keep-all;
   text-align: left;
 }
 .container .project main ul li {
   color: var(--text);
   font-size: 1.4em;
-  font-family: "Radio Canada Big", sans-serif;
+  font-family: "Raleway", serif;
   word-break: keep-all;
   text-align: left;
 }
@@ -183,13 +183,13 @@ margin: 2em auto;
     color: var(--text);
     font-size: 2em;
     text-align: left;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Space Grotesk", serif;
   }
   .container .project header .txt h2 {
     color: var(--text);
     font-size: 1.4em;
     text-align: left;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Space Grotesk", serif;
     margin: 0.5em 0em;
   }
   

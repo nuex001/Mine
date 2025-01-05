@@ -15,22 +15,21 @@ function Header() {
   };
   return (
     <header>
-      <BsFillMoonStarsFill className="bulb" onClick={toggleBulb}/>
+      <BsFillMoonStarsFill className="bulb" onClick={toggleBulb} />
       <div className="txt">
         <h1>WELCOME</h1>
         <h1>TO MY SPACE</h1>
         <p>
-          With over Three years of expertise in Fullstack development and a
-          profound grasp of Ethereum and web3 technologies, encompassing React,
-          Node.js, and Solidity, I have cultivated a keen awareness of the
-          distinctive challenges and opportunities inherent in decentralized web
-          applications.
+          With four years of Fullstack development experience and a knack for
+          web3 technologies like Solidity, React, and Node.js, I thrive on
+          creating groundbreaking decentralized apps. From crafting bonding
+          curves to building interactive games and NFT platforms, I specialize
+          in turning bold ideas into reality.
         </p>
         <p>
-          My hands-on involvement in Ethereum-based projects, coupled with
-          proficiency in web3 technologies such as IPFS, Solidity, and Hardhat,
-          positions me to craft pioneering and decentralized applications that
-          empower users.
+          My hands-on experience with tools like IPFS, Hardhat, and
+          Ethereum-based frameworks lets me tackle challenges head-on, always
+          aiming to push the boundaries of what’s possible in web3.
         </p>
       </div>
       <div className="plus">

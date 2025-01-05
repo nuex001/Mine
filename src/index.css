@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Orbitron:wght@400..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
 * {
   box-sizing: border-box;
   padding: 0%;
@@ -15,8 +15,14 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 /* 
-  font-family: "Orbitron", sans-serif;
+removed
+  font-family: "Space Grotesk", serif;
   font-family: "Poetsen One", sans-serif;
+  */
+/* 
+  font-family: "Raleway", serif;
+  font-family: "Lexend", serif;
+  font-family: "Space Grotesk", serif;
   */
 
 html {
@@ -32,6 +38,7 @@ body{
   flex-direction: column;
   align-items: center;
   font-size: 10px;
+  font-family: "Raleway", serif;
   padding: 4em 2em;
   background: var(--bg);
   -ms-overflow-style: none; /* IE and Edge */
@@ -57,18 +64,14 @@ body{
 .container .home header h1 {
   color: var(--text);
   font-size: 6em;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
 }
 .container .home header p {
   color: var(--text);
-  font-family: "Radio Canada Big", sans-serif;
+  font-family: "Raleway", serif;
   font-size: 2em;
   width: 600px;
   margin: 0.5em 0em;
-}
-.container .home header .icon {
-  color: var(--text);
-  font-size: 6em;
 }
 .container .home header .plus {
   display: flex;
@@ -85,7 +88,7 @@ body{
   position: absolute;
   top: 0%;
   right: 0%;
-  font-size: 4em;
+  font-size: 3em;
   cursor: pointer;
 }
 
@@ -98,7 +101,7 @@ body{
 .container .home .portfolio h1 {
   color: var(--text);
   font-size: 8em;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
   margin-top: 0.5em;
 }
 .container .home .portfolio .rows {
@@ -122,7 +125,7 @@ body{
   width: 45%;
 }
 .container .home .portfolio .box img {
-  object-fit: cover;
+  object-fit: contain;
   width: 50%;
   height: 500px;
 }
@@ -130,11 +133,11 @@ body{
 .container .home .portfolio .box .txt h2 {
   color: var(--text);
   font-size: 3em;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
 }
 .container .home .portfolio .box .txt p {
   color: var(--text);
-  font-family: "Radio Canada Big", sans-serif;
+  font-family: "Raleway", serif;
   font-size: 1.8em;
   margin: 1em 0em;
   line-height: 25px;
@@ -143,7 +146,7 @@ body{
   color: var(--text);
   font-size: 1.8em;
   display: block;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
   position: absolute;
   bottom: 0%;
   left: 50%;
@@ -173,7 +176,7 @@ body{
   color: var(--text);
   font-size: 2em;
 font-weight: 600;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Space Grotesk", serif;
 }
 .container footer ul {
   display: flex;
