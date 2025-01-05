@@ -37,7 +37,7 @@ function Portfolio() {
       id: 2,
       topic: "Basedtestnet 🚰",
       coverImg: basedtestnet,
-      text: "BasedTesnet Foundation is a platform designed to support developers and projects on the Base Testnet. With a focus on community engagement and innovation, it serves as a hub for blockchain-based initiatives, providing essential tools, resources, and guidance for the ecosystem to thrive..",
+      text: "BasedTestnet Foundation is a platform dedicated to empowering developers by providing access to test tokens on the Base Testnet. The foundation ensures that builders have the resources they need to develop, test, and launch their blockchain projects effectively. Additionally, users can donate to the Vault, which helps extend the reach of test tokens to more developers while securing exclusive rewards and goodies for contributors.",
       subTopic: "Base PROJECT",
       link: "Daoprj",
       external_link: "https://basedtestnet.netlify.app/",
