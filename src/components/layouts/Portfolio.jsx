@@ -10,6 +10,8 @@ import Yt from "../../assets/images/Yt.png";
 import alphablock from "../../assets/images/alphablock.png";
 import SEI_TOKEN_GENERATOR from "../../assets/images/SEI_TOKEN_GENERATOR.png";
 import invi from "../../assets/images/invi.jpg";
+import mintui from "../../assets/images/mintui.png";
+import aidoc from "../../assets/images/aidoc2.png";
 import { Link } from "react-router-dom";
 function Portfolio() {
   const [portfolios, setPortfolios] = useState([
@@ -72,6 +74,26 @@ function Portfolio() {
       link: "Invprj",
       external_link: "https://www.youtube.com/@nuelyoungtech",
       date: "2024",
+    },
+    {
+      id: 5,
+      topic: "Aidoc",
+      coverImg: aidoc,
+      text: "Turn Your Code into Clear, Structured Docs in Seconds! Generate well-formatted, easy-to-read documentation in XML, HTML, or Markdown—perfect for developers and teams.",
+      subTopic: "Fullstack developer",
+      link: "Invprj",
+      external_link: "https://aidoc-doc.netlify.app/",
+      date: "2025",
+    },
+    {
+      id: 5,
+      topic: "Minut Ui",
+      coverImg: mintui,
+      text: "Begin your journey by exploring our collection of meme-inspired landing page templates, ready for you to select and purchase. With our user-friendly interface, you can easily customize these templates to suit your unique style and branding. Whether you're a seasoned developer or just starting out, our platform empowers you to create stunning landing pages that captivate your audience.",
+      subTopic: "Fullstack developer",
+      link: "Invprj",
+      external_link: "https://mintui.org/",
+      date: "2025",
     },
     {
       id: 6,
