@@ -72,7 +72,7 @@ function Portfolio() {
       text: "Get started with Web3 for Free, Whether you're new to the world of technology or looking to expand your knowledge in web 3, our community offers comprehensive resources to help you succeed.Start your learning adventure today!",
       subTopic: "Alphablock(Smart contract developer)",
       link: "Invprj",
-      external_link: "https://www.youtube.com/@nuelyoungtech",
+      external_link: "https://www.alphablocks.tech/",
       date: "2024",
     },
     {
