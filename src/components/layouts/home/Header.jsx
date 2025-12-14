@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaPlus } from "react-icons/fa6";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillMoonStarsFill, BsSun, BsSunFill } from "react-icons/bs";
 function Header() {
+  const [bulbOn, setBulbOn] = useState(false);
   const toggleBulb = (e) => {
     const root = document.documentElement; // Get the root element of the document
     // Get the computed styles of the document's root element
@@ -12,10 +13,16 @@ function Header() {
     // Swap the values of --bg and --text
     root.style.setProperty("--bg", textColor);
     root.style.setProperty("--text", bgColor);
+    setBulbOn(!bulbOn);
   };
   return (
     <header>
+      {
+        !bulbOn ?
       <BsFillMoonStarsFill className="bulb" onClick={toggleBulb} />
+      :
+      <BsSunFill className="bulb" onClick={toggleBulb} />
+      }
       <div className="txt">
         <h1>WELCOME</h1>
         <h1>TO MY SPACE</h1>
