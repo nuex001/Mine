@@ -98,7 +98,9 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
-  /* border: 2px solid var(--text); */
+}
+.container .home header .txt {
+  width: 45%;
 }
 .container .home header h1 {
   color: var(--text);
@@ -108,10 +110,10 @@ body {
 }
 .container .home header p {
   color: var(--text);
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 300;
-  width: 600px;
   margin: 0.5em 0em;
+  margin-top: 1em;
 }
 .container .home header p.stack {
   font-size: 1.4em;
@@ -322,6 +324,9 @@ body {
   .container .home header {
     flex-direction: column;
     padding-top: 5em;
+  }
+  .container .home header .txt {
+    width: 100%;
   }
   .container .home header h1 {
     font-size: 4em;
