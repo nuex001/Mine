@@ -4,28 +4,28 @@
 /* Local Fonts */
 @font-face {
   font-family: "Oldschool Grotesk";
-  src: url("/fonts/Oldschool Grotesk Light.otf") format("opentype");
+  src: url("/fonts/Oldschool Grotesk Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Oldschool Grotesk";
-  src: url("/fonts/Oldschool Grotesk Regular.otf") format("opentype");
+  src: url("/fonts/Oldschool Grotesk Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Oldschool Grotesk";
-  src: url("/fonts/Oldschool Grotesk Medium.otf") format("opentype");
+  src: url("/fonts/Oldschool Grotesk Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Oldschool Grotesk";
-  src: url("/fonts/Oldschool Grotesk Heavy.otf") format("opentype");
+  src: url("/fonts/Oldschool Grotesk Heavy.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -277,7 +277,8 @@ body {
   }
 
   .container .home header .bulb {
-    font-size: 3em;
+    width: 3em;
+    height: 3em;
   }
 
   /* PORTFOLIO */
