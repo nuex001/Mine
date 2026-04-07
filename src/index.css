@@ -120,6 +120,20 @@ body {
   /* letter-spacing: -0.5px; */
 }
 
+.container .home header .btn {
+  background: var(--text);
+  color: var(--bg);
+  font-size: 1.4em;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  z-index: 10;
+  float: right;
+}
+
 .container .home header .plus {
   display: flex;
   flex-direction: column;
@@ -227,7 +241,47 @@ body {
   justify-content: center;
   border-radius: 5px;
   z-index: 10;
+  border: 2px solid var(--text);
 }
+
+.container .home .portfolio .box .txt .btn:hover {
+  background: transparent;
+  color: var(--text);
+}
+
+.container .home .hireme {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+.container .home .hireme h1 {
+  font-size: 10em;
+  text-align: center;
+}
+
+.container .home .hireme .btn {
+  background: var(--text);
+  color: var(--bg);
+  font-size: 1.4em;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  z-index: 10;
+  border: 2px solid var(--text);
+}
+
+.container .home .hireme .btn:hover {
+  background: transparent;
+  color: var(--text);
+}
+
 /* FOOTER */
 .container footer {
   width: 100%;
@@ -267,6 +321,7 @@ body {
   }
   .container .home header {
     flex-direction: column;
+    padding-top: 5em;
   }
   .container .home header h1 {
     font-size: 4em;
@@ -275,6 +330,12 @@ body {
     font-size: 1.4em;
     width: 100%;
   }
+
+  .container .home header .btn {
+    float: none;
+    margin-top: 1em;
+  }
+
   .container .home header .icon {
     font-size: 4em;
   }
@@ -288,7 +349,7 @@ body {
   .container .home section {
     width: 100%;
     margin: 1em auto;
-    margin-top: 8em;
+    margin-top: 4em;
   }
   .container .home .portfolio h1 {
     font-size: 4em;
@@ -321,5 +382,19 @@ body {
     bottom: -7%;
     left: 0%;
     transform: translateX(0%);
+  }
+
+  .container .home .hireme {
+    width: 100%;
+    min-height: 30vh;
+  }
+  .container .home .hireme h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .container .home .hireme .btn:hover {
+    background: transparent;
+    color: var(--text);
   }
 }

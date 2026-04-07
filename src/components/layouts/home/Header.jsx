@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaPlus } from "react-icons/fa6";
 // import { BsFillMoonStarsFill, BsSun, BsSunFill } from "react-icons/bs";
-import { Moon, SunDim } from 'lucide-react';
+import { Moon, SunDim } from "lucide-react";
 function Header() {
   const [bulbOn, setBulbOn] = useState(false);
   const toggleBulb = (e) => {
@@ -26,11 +26,19 @@ function Header() {
       <div className="txt">
         <h1>WELCOME</h1>
         <h1>TO MY SPACE</h1>
-          <p>
-            I’m Nuel, a fullStack developer with 5 years of experience building
-            scalable Web2 and Web3 products.
-          </p>
+        <p>
+          I’m Nuel, a fullStack developer with 5 years of experience building
+          scalable Web2 and Web3 products.
+        </p>
         <p className="stack">JavaScript, React, Node.js, Solidity...</p>
+        <a
+          href="mailto:edeemmanuelchizurumoke@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          [ Start a Project ]
+        </a>
       </div>
       <div className="plus">
         <FaPlus className="icon" />
