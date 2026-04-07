@@ -7,6 +7,7 @@
   src: url("/fonts/Oldschool Grotesk Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
   src: url("/fonts/Oldschool Grotesk Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -21,6 +23,7 @@
   src: url("/fonts/Oldschool Grotesk Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -28,8 +31,8 @@
   src: url("/fonts/Oldschool Grotesk Heavy.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
-
 
 * {
   box-sizing: border-box;
