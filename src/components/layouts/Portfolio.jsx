@@ -30,7 +30,7 @@ function Portfolio() {
       text: "Delink empowers Base Name holders to turn their on-chain identity into dynamic, customizable links. Instead of remaining static, Base Names become personal hubs where users can attach professional or personal links and share them through clean, memorable URLs. EthAccra · 2× Award-Winning Project",
       subTopic: "Web3 Identity Platform",
       link: "/projects",
-      external_link: "https://www.delink.click/",
+      external_link: "https://delinkclick.netlify.app",
       date: "2025",
     },
     {
@@ -91,7 +91,7 @@ function Portfolio() {
       text: "Simpl3 is a Web3 learning platform built for creators and builders. It focuses on practical education, real-world use cases, and community-driven learning to help users grow confidently in the Web3 space.",
       subTopic: "Web3 Learning Platform",
       link: "Invprj",
-      external_link: "https://simpl3.org/",
+      external_link: "https://simpl3-nuel.netlify.app/",
       date: "2025",
     },
     {
@@ -129,31 +129,30 @@ function Portfolio() {
 
   return (
     <section className="portfolio">
-      <h1>PORTFOLIO</h1>
-      <a href="" className="rows">
+      <h1>My works</h1>
+      <div className="rows">
         {portfolios.map((item) => (
-          <div>
-            <Link
-              to={item.external_link}
-              target="_blank"
+            <div
               className="box"
               key={item.id}
             >
               <div className="txt">
                 <h2>{item.topic}</h2>
                 <p>{item.text}</p>
-                <div className="link">
-                  <a href={item.external_link} target="_blank">
-                    {item.subTopic}
+                <div className="linksCont">
+                  <div className="link">
+                    <p>{item.subTopic}</p>
+                    <h3>{item.date}</h3>
+                  </div>
+                  <a href={item.external_link} target="_blank" rel="noopener noreferrer" className="btn">
+                   [ Launch ]
                   </a>
-                  <h3>{item.date}</h3>
                 </div>
               </div>
               <img src={item.coverImg} alt="" />
-            </Link>
-          </div>
+            </div>
         ))}
-      </a>
+      </div>
     </section>
   );
 }
