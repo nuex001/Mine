@@ -91,7 +91,7 @@ function Portfolio() {
       text: "Simpl3 is a Web3 learning platform built for creators and builders. It focuses on practical education, real-world use cases, and community-driven learning to help users grow confidently in the Web3 space.",
       subTopic: "Web3 Learning Platform",
       link: "Invprj",
-      external_link: "https://simpl3-nuel.netlify.app/",
+      external_link: "https://simpl3-nuel.netlify.app",
       date: "2025",
     },
     {
