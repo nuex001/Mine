@@ -7,8 +7,10 @@ function Home() {
   return (
     <div className="home">
       <Header />
-      <Portfolio /> 
-      <Hireme /> 
+      <main>
+        <Portfolio />
+        <Hireme />
+      </main>
     </div>
   );
 }
