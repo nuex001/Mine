@@ -7,6 +7,8 @@ import delink from "../../assets/images/delink.png";
 import simpl3 from "../../assets/images/simpl3.png";
 import cipherquest from "../../assets/images/cipherquest.png";
 import Yt from "../../assets/images/Yt.png";
+import saap from "../../assets/images/saap.png";
+import sstore from "../../assets/images/sstore.png";
 import alphablock from "../../assets/images/alphablock.png";
 import SEI_TOKEN_GENERATOR from "../../assets/images/SEI_TOKEN_GENERATOR.png";
 import invi from "../../assets/images/invi.png";
@@ -35,6 +37,26 @@ function Portfolio() {
     },
     {
       id: 3,
+      topic: "Saap",
+      coverImg: saap,
+      text: "A fullstack payment platform that enables merchants to accept blockchain payments using Circle's wallet infrastructure and Privy authentication. Features include wallet creation, merchant payment processing, transaction tracking, webhook integration, and secure backend verification.",
+      subTopic: "Circle SDK, Privy, Zustand",
+      link: "app",
+      external_link: "https://saalive.netlify.app/",
+      date: "2026",
+    },
+    {
+      id: 4,
+      topic: "Sstore",
+      coverImg: sstore,
+      text: "Sstore is an e-commerce platform that allows users to order meals online and pay upon delivery. It features a seamless shopping experience with an intuitive user interface, coupon discounts, order management, and email notifications. Built with React.js and Node.js, Sstore provides customers with a fast and convenient way to browse, order, and receive meals.",
+      subTopic: "Food Ordering & E-Commerce Platform",
+      link: "app",
+      external_link: "https://sstoref.netlify.app/",
+      date: "2026",
+    },
+    {
+      id: 6,
       topic: "Iron Age ⛏️",
       coverImg: ironage,
       text: "Iron Age is a gamified Telegram mini-app that lets users mine points, complete tasks, and upgrade their abilities. Inspired by the industrious Iron Age era, the app blends productivity with fun to keep users engaged and rewarded.",
@@ -44,7 +66,7 @@ function Portfolio() {
       date: "2024",
     },
     {
-      id: 4,
+      id: 7,
       topic: "Tariff Surge",
       coverImg: tariffsurge,
       text: "Tariff Surge is a Telegram trading bot built for the XRPL ecosystem. It provides automated trading-volume generation for tokens and charges users based on the volume created. The bot was fully developed and optimized by me.",
@@ -55,7 +77,7 @@ function Portfolio() {
       date: "2025",
     },
     {
-      id: 5,
+      id: 8,
       topic: "SEI Token Generator ⚙️",
       coverImg: SEI_TOKEN_GENERATOR,
       text: "A no-code platform that allows anyone to easily create and deploy meme tokens on the Sei network. Built with React.js and ethers.js, the platform abstracts away complexity while keeping gas fees minimal.",
@@ -65,7 +87,7 @@ function Portfolio() {
       date: "2024",
     },
     {
-      id: 6,
+      id: 9,
       topic: "XFI",
       coverImg: xfi,
       text: "XFI is a Sei-powered protocol for tipping creators on X (Twitter), swapping tokens, and sending messages globally. Built for speed and simplicity, it enables seamless social interactions powered by crypto.",
@@ -75,7 +97,7 @@ function Portfolio() {
       date: "2025",
     },
     {
-      id: 7,
+      id: 10,
       topic: "🚀 InvigorateDAO",
       coverImg: invi,
       text: "InvigorateDAO helps early-stage and growing projects connect with investors, developers, strategic partners, and influencers. The platform is designed to accelerate growth through meaningful Web3 collaborations.",
@@ -85,7 +107,7 @@ function Portfolio() {
       date: "2024",
     },
     {
-      id: 8,
+      id: 11,
       topic: "Simpl3",
       coverImg: simpl3,
       text: "Simpl3 is a Web3 learning platform built for creators and builders. It focuses on practical education, real-world use cases, and community-driven learning to help users grow confidently in the Web3 space.",
@@ -95,7 +117,7 @@ function Portfolio() {
       date: "2025",
     },
     {
-      id: 9,
+      id: 12,
       topic: "CipherQuest",
       coverImg: cipherquest,
       text: "CipherQuest is a decentralized quest platform where creators design puzzle-based challenges with real on-chain rewards. Participants solve quests using hints and secret keys, and the first correct solution claims the reward. The platform is fully transparent, trustless, and verifiable on-chain.",
@@ -106,7 +128,7 @@ function Portfolio() {
     },
 
     {
-      id: 10,
+      id: 13,
       topic: "My YouTube Channel 🎥",
       coverImg: Yt,
       text: "My YouTube channel focuses on making web development simple and practical. I share easy-to-follow tutorials, real-world tips, and portfolio-building guidance, with content often shaped by community requests.",
@@ -115,16 +137,7 @@ function Portfolio() {
       external_link: "https://www.youtube.com/@nuelyoungtech",
       date: "2024",
     },
-    // {
-    //   id: 7,
-    //   topic: "Alphablock",
-    //   coverImg: alphablock,
-    //   text: "Alphablock is a Web3 learning and community platform focused on onboarding newcomers into blockchain development. It offers free resources and practical guidance to help developers confidently get started in Web3.",
-    //   subTopic: "Smart Contract Developer",
-    //   link: "Invprj",
-    //   external_link: "https://www.alphablocks.tech/",
-    //   date: "2024",
-    // },
+  
   ]);
 
   return (
@@ -132,25 +145,27 @@ function Portfolio() {
       <h1>My works</h1>
       <div className="rows">
         {portfolios.map((item) => (
-            <div
-              className="box"
-              key={item.id}
-            >
-              <div className="txt">
-                <h2>{item.topic}</h2>
-                <p>{item.text}</p>
-                <div className="linksCont">
-                  <div className="link">
-                    <p>{item.subTopic}</p>
-                    <h3>{item.date}</h3>
-                  </div>
-                  <a href={item.external_link} target="_blank" rel="noopener noreferrer" className="btn">
-                   [ Launch ]
-                  </a>
+          <div className="box" key={item.id}>
+            <div className="txt">
+              <h2>{item.topic}</h2>
+              <p>{item.text}</p>
+              <div className="linksCont">
+                <div className="link">
+                  <p>{item.subTopic}</p>
+                  <h3>{item.date}</h3>
                 </div>
+                <a
+                  href={item.external_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn"
+                >
+                  [ Launch ]
+                </a>
               </div>
-              <img src={item.coverImg} alt="" />
             </div>
+            <img src={item.coverImg} alt="" />
+          </div>
         ))}
       </div>
     </section>
