@@ -11,7 +11,7 @@ function Home() {
       <Header setIsModalOpen={setIsModalOpen} isModalOpen={isModalOpen} />
       <main>
         <Portfolio />
-        <Hireme />
+        <Hireme setIsModalOpen={setIsModalOpen} isModalOpen={isModalOpen}/>
       </main>
     </div>
   );
