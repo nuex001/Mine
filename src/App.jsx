@@ -11,7 +11,7 @@ function App() {
     <div className="container">
       <ScrollToTop/>
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/" element={<Home />}/>
       </Routes>
       <Footer/>
     </div>

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../../Modal';
 
-function Hireme() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+function Hireme({setIsModalOpen, isModalOpen}) {
 
   const handleSubmit = async (formData) => {
     // Integrate with your Web3Forms API
